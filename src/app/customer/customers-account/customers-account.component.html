@@ -1,0 +1,27 @@
+<form [formGroup]="accountsForm" (ngSubmit)="saveAccountInfo">
+    <mat-form-field>
+        <input type="text" matInput formControlName="firstName"  plaeholder="First Name">
+    </mat-form-field>
+    
+    <mat-form-field>
+        <input type="text" matInput formControlName="lastName"  plaeholder="Last Name">
+    </mat-form-field>
+
+    <mat-form-field>
+        <input type="text" matInput formControlName="currentBank"  plaeholder="Current Bank">
+    </mat-form-field>
+
+    <mat-form-field>
+        <input type="text" matInput formControlName="routingNumber"  plaeholder="Routing Number">
+    </mat-form-field>
+
+    <mat-form-field>
+        <input type="text" matInput formControlName="accountNumber"  plaeholder="Account Number">
+    </mat-form-field>
+
+    <mat-form-field>
+        <input type="text" matInput formControlName="amount"  plaeholder="Amount">
+    </mat-form-field>
+    
+    <button mat-stroked-button type="submit">Submit account</button>
+</form>
