@@ -1,6 +1,6 @@
 <main>
     <!--display email login-->
-    <div class="center" *ngIf="!( afAuth.authstate | async )">
+    <div class="center" *ngIf="!( afAuth.authState | async )">
         <h1>Login</h1>
         <button mat-raised-button appGoogleSignin>Login with Google</button>
     
@@ -10,7 +10,7 @@
     </div>
 ​
     <!--Show Logged in user-->
-    <div *ngIf="afAuth.authstate | async as user">
+    <div *ngIf="afAuth.authState | async as user">
         <p>
             Logged In as <strong>{{user.email}}</strong>
         </p>

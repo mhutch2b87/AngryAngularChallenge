@@ -1,0 +1,17 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\customer",
+    "\\src\\app\\customer\\customers-account",
+    "\\src\\app\\shared",
+    "\\src\\app\\shared\\shell",
+    "\\src\\app\\user",
+    "\\src\\app\\user\\email-login",
+    "\\src\\assets",
+    "\\src\\environments"
+  ],
+  "SelectedNode": "\\src\\app\\customer\\customer.module.ts",
+  "PreviewInSolutionExplorer": false
+}

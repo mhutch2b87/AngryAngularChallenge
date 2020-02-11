@@ -9,7 +9,7 @@ import { AngularFireAuth } from '@angular/fire/auth';
 })
 export class LoginPageComponent implements OnInit {
 
-  constructor(private afAuth: AngularFireAuth) { }
+  constructor(public afAuth: AngularFireAuth) { }
 
   // showUserData(){
   //   console.log(this.authserv.getUserInfo())
